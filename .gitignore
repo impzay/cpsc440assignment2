@@ -15,6 +15,7 @@
 *.so
 *.dylib
 *.dll
+*.so.*
 
 # Fortran module files
 *.mod
@@ -30,3 +31,73 @@
 *.exe
 *.out
 *.app
+
+# Debug files
+*.ilk
+*.pdb
+*.idb
+*.dwo
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.aps
+*.ncb
+*.opendb
+*.cachefile
+*.VC.db-shm
+*.VC.db-wal
+
+# Visual Studio build directories
+Debug/
+Release/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+ipch/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# vcpkg
+vcpkg_installed/
+packages/
+
+# Test output & cache
+Testing/
+.cache/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# VS Code
+.vscode/
